@@ -20,7 +20,9 @@ function HomeSearch() {
   const randomSearch = async () => {
     try {
       setLoading(true);
-      const res = await fetch("https://random-word-api.vercel.app/api?words=1");
+      const res = await fetch(
+        "https://random-word-api.herokuapp.com/word?number=1",
+      );
       const data = await res.json();
 
       if (!res.ok) return;
@@ -66,7 +68,7 @@ function HomeSearch() {
             <Image
               width={50}
               height={50}
-              src="spinner.svg"
+              src="/spinner.svg"
               alt="loading spinner"
               className="text-center h-5"
               style={{ height: "50", width: "auto" }}
