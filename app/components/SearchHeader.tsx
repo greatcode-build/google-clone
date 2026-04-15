@@ -40,7 +40,7 @@ function SearchHeader() {
         <div className="flex w-full items-center justify-between md:w-auto">
           <Link href={"/"}>
             <Image
-              src={`https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png`}
+              src={`https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png`}
               width={120}
               height={40}
               alt="google"
